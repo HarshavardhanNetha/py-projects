@@ -43,8 +43,6 @@ def recog(imgPath):
                     print(b[11])
                     temp_list.append(b[11])
                 if(len(b[11])==12):
-                    #xx,yy,w,h = int(b[6]), int(b[7]),int(b[8]), int(b[9])
-                    #cv2.putText(img, b[11],(xx,yy),cv2.FONT_HERSHEY_COMPLEX,1,(50,50,225),2)
                     print(b[11])
                     adh_list.append(b[11])
     print(temp_list,adh_list)
