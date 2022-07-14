@@ -1,0 +1,35 @@
+1.IntendationError
+2.IndexError
+3.TypeError
+4.ValueError
+5.SyntaxError
+6.ImportError
+7.KeyError
+8.NameError
+9.KeyboardInterrupt
+    ctrl+c
+10.EOFError
+    ctrl+d
+11.ZeroDivisionError 
+
+'  
+AssertionError
+AttributeError
+EOFError
+FloatingPointError
+GeneratorExitError
+ImportError
+IndexError
+KeyError
+KeyboardInterrupt
+MemoryError
+NameError
+NotImplementedError
+OSError
+OverflowError
+ReferenceError
+RuntimeError
+StopIteration
+SyntaxError
+
+'

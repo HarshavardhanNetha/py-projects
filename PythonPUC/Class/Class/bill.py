@@ -1,0 +1,11 @@
+a=input("Name of Item:")
+a1=int(input("Value per one piece:-"))
+b=int(input("Quantity:"))
+d=int(input("Discount Percent:"))
+e=(a1*b)*d/100
+print("********BILL********")
+print('Item Name is',a)
+print('Quantity',b)
+print("Value(in Rs):-",a1*b)
+print('Discount is',e)
+print("Total amount Payable:-",(a1*b)-e)

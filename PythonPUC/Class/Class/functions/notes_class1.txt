@@ -1,0 +1,33 @@
+Functions:block of code to perform a specific task
+1.built-in function
+2.user defined function
+Adv:
+1.Simpler code
+2.Reusability
+3.Better testing
+4.info hiding
+5.Improves the clarity of code
+
+Defining a Function:(user defined)
+RULES....
+1.use key word def--(definition)
+2.def function_name(arguments/parameters):  ---Function Header
+3. >>body<< 1st line is optional or for description
+single line=' ' multi= '''   '''
+4.def function():
+  --->"______"
+  ---> ______
+  ---> ______
+
+
+Calling a function: In order to execute a function we have to call it or invoking	
+syntax:- function_name(arg1,arg2)
+
+ex:
+def add(a,b):
+	"adding numbers"
+	print(a+b)
+add(14,45)
+
+def msg():
+	print('Welcome to Functions')

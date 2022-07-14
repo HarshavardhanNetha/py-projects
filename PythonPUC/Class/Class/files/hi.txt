@@ -1,0 +1,20 @@
+Hello Im creatin
+Hskfelbcs
+JBCfjsdbvcs
+jKLBlvfev
+KBVjndv
+sjvfs;hf
+aejrhfs;jh
+sdkjhvjrhg
+sdjvbsrug
+
+'C:\\Users\\harsh\\AppData\\Local\\Programs\\Python\\Python37'
+
+os.chdir(r'C:\Users\harsh\Desktop\pyt\Sem2\files')
+
+for x in f:
+	n=x.read(2)
+	print(n)
+
+obj.seek(index) is used to change the pos in file cursor
+obj.tell() returns the index at present15:56 30-03-2019 

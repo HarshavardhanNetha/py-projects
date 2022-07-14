@@ -1,0 +1,126 @@
+8. a=input()
+   print(ord(a))
+
+9. a=int(input())
+   b=int(input())
+   a=a+b
+   b=a-b
+   a=a-b
+  print(a,b)
+
+10.a=int(input('Basic Pay:')) 
+   hra=0.1*a
+   ta=0.05*a
+   print(a+hra+ta)
+
+11.print(*******************************BILL*******************************)
+   a=input('Item_Name')
+   b=int(input('Quantity'))
+   v=int(input('Price'))
+   amt=b*v
+   print('\t Item Name \t Item Quanity \t Item Price')
+   print('\t',a,'\t',b,'\t',v)
+   print('*'*25)
+   print('Total amount to be paid',amt)
+   print('*'*25)
+
+******DECISION CONTROL STATEMENTS*******
+2.
+a=input()
+if(a.isnum()):
+	print('Number')
+elif(a.isalpha()):
+	print('Alphabet')
+elif(a.isspace()):
+	print('White Space')
+else:
+	print('Punctuations')
+
+3.
+a=int(input())
+b=int(input())
+c=int(input())
+if(a>b):
+	if(a>c):
+		print(a)
+	else:
+		print(c)
+else:
+	if(b>c):
+		print(b)
+	else:
+		print(c)
+5.
+a=int(input("enter the name"))
+print("enter 1 for male or 2 for female")
+b=int(input("enter the digit"))
+if(m!=1 or m!=2):
+	print(valid input)
+c=int(input("enter the salary"))
+if(a==1):
+	if(b>10000):
+		print("bonus",c*0.05)
+	else:
+		print("bonus",c*0.07)
+else:
+	if(b==female):
+		print("bonus",c*0.1)
+	else:
+		print("bonus",c*0.12)
+print(a)
+print(b)
+print(c)
+***********6.****
+a=int(input("enter the year")
+if(a/4==0 or a/100==0 and a/400==0):
+				print("it is a leap year")
+else:
+	print("it is not leap year")
+**********7********
+L1=list('aeiouAEIOU')
+b=input("enter the character")
+if(b in L1):
+	print("it is a vowel")
+else:
+	print("it is not a vowel")
+if(b.isnum()):
+	print('Number')
+print(b)
+*************8**********
+a=int(input("enter the salary"))
+if(a<=150000):
+	print("no tax")
+elif(a>150000 and a<=300000):
+	print("tax",0.1*a)
+elif(a>300000 and a<=500000):
+	print("tax",0.2*a)
+else:
+	print("tax",o.3*a)
+****************9************
+a=int(input("enter 1 marks"))
+b=int(input("enter2 marks"))
+c=int(input("enter3 marks"))
+d=int(input("enter 4 marks"))
+total=(a+b+c+d)
+avg=total/4
+if(avg<40):
+	print("fail")
+elif(avg>=40 and avg<50):
+	print("third class")
+elif(avg>=50 and avg<60):
+	 print("second class")
+elif(avg>=60 and avg<70):
+	print("first class")
+else:
+	print("distinction")
+***********10*********
+a=int(input("enter the coefficient of x**2"))
+b=int(input("enter the coefficient  of x"))
+c=int(input("enter the coefficient of x**0"))
+d=(b**2-4ac)**0.5
+e=(-b+d)/2a
+f=(-b-d)/2a
+print("roots are",e,f)
+print(a)
+print(b)
+print(c)

@@ -1,0 +1,30 @@
+Arguments/parameters:
+1.Actual parameters/args
+2.Formal parameters
+
+
+1>>> add(a,b)   --- input by user
+	values variables expressions
+ def msg(n):
+	print(n)
+ 
+ msg(n*2)
+
+2>>> parameters/args defined in 1st line
+
+	they should be variables
+    ex: def add(var1,var2):
+		def add(10,20): --- Not valid
+
+Passing Parameters.....
+1> positional arguments
+	no. and order defined and inputed should be same.
+2> keyword(named) argument
+3>default argument
+4>orbitary argument
+    def add(c,*d)
+	print(c)
+	for i in d:
+		print(i)
+add(10) #10
+add(10,20,30,40) #

@@ -1,0 +1,40 @@
+1. l1=[1,2,3,4,5]
+   sum=0
+   for i in l1:
+	sum+=i
+   print(sum)
+2. l1=[1,2,4,5,7,8]
+   print(max(l1)) #prints max number
+   print(min(l1)) #prints min number
+3. l1=['abc','foo','boo','kik','tit','tat']
+   cnt=0
+   for i in l1:
+	if(len(i)>2):
+	   if(l1[0]==l1[-1]):
+	      cnt+=1
+   print(cnt)
+4. l1=[1,2,3,4,3,2,4,5,6,3]
+   l2=[]
+   for i in l1:
+	for i not in l2:
+		l2.append()
+   print(l2)
+5. l1=['akhil','vinay','rajesh','ravi','ram','rakesh']
+   n=int(input())
+   l2=[]
+   for i in l1:
+	if(len(i)>n):
+	   l2.append(i)
+   print(l2)
+6. l1=[1,2,3,4,5,6,7,8]
+   print(l1[1:4],l1[6:])
+7. l1=[1,2,3,4,5,6,7,8,10]
+   l2=[]
+   for i in l1:
+	if(i%2!=0):
+		l2.append(i)
+   print(l2)
+8. l1=[]
+   for i in range(1,31):
+	l1.append(i*i)
+   print(l1[0:6],l1[-5:])

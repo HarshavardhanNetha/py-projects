@@ -1,0 +1,7 @@
+a=int(input("1st number"))
+b=int(input("2nd number"))
+print("Sum of {} and {} is:- {}".format(a,b,a+b))
+a=int(input("1st number"))
+b=int(input("2nd number"))
+print("Sum of {0} and {1} is:- {2}".format(a,b,a+b))
+#the numbers inside flower braces are the indices of format()

@@ -1,0 +1,5 @@
+a=int(input("Enter a number"))
+print("binary value of a is:",bin(a))
+print("octal value of a is:",oct(a))
+print("hexa decimal value of a is:",hex(a))
+print("Square root of a is",a**0.5)

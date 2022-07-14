@@ -1,0 +1,10 @@
+a=[1,2,3,4,9,7,4]
+x=-1
+b=[]
+while(1):
+    b=b+[a[x]]
+    x-=1
+    #print(a[x])
+    if(a[x+1]==a[0]):
+        break
+print(b)
